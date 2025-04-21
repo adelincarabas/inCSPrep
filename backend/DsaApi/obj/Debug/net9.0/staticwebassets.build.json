@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "A0XMcB1ImI00jFlcVgu6WyDdrLdOuptcNghtnPGEG14=",
+  "Source": "DsaApi",
+  "BasePath": "_content/DsaApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,6 @@
+@DsaApi_HostAddress = http://localhost:5185
+
+GET {{DsaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
