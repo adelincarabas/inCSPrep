@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.code-editor-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #282c34;
+}
+
+.code-editor-container .ace_editor {
+  border-radius: 5px;
+}

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import MenuButton from './components/menuButton'
+import MenuButton from './components/MenuButton'
 import DsaExercise from './components/DsaExcerciseCard';
 
 function App() {
