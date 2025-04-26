@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DsaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22e8d1f589c3d13eb40b3345b7546273922d723f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22771f97653a29a89f81f54399cb956212556e1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DsaApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DsaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

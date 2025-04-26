@@ -30,7 +30,8 @@ namespace DsaApi.Controllers
                     TestCases = reader.GetString(1),
                     Title = reader.GetString(2),
                     Difficulty = reader.GetString(3),
-                    Description = reader.GetString(4)
+                    Description = reader.GetString(4),
+                    Template = reader.GetString(5)
                 };
                 exercises.Add(exercise);
             }
