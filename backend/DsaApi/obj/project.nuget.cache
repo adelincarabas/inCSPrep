@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wBJxw38kJMk=",
+  "dgSpecHash": "qmJbosq4HL4=",
   "success": true,
   "projectFilePath": "E:\\Coding\\inCSPrep\\backend\\DsaApi\\DsaApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adeli\\.nuget\\packages\\acornima\\1.6.1\\acornima.1.6.1.nupkg.sha512",
+    "C:\\Users\\adeli\\.nuget\\packages\\jint\\4.9.1\\jint.4.9.1.nupkg.sha512",
     "C:\\Users\\adeli\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
     "C:\\Users\\adeli\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\adeli\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",

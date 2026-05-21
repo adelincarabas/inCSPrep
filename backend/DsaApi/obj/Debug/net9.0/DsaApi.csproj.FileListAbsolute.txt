@@ -33,3 +33,5 @@ E:\Coding\inCSPrep\backend\DsaApi\obj\Debug\net9.0\refint\DsaApi.dll
 E:\Coding\inCSPrep\backend\DsaApi\obj\Debug\net9.0\DsaApi.pdb
 E:\Coding\inCSPrep\backend\DsaApi\obj\Debug\net9.0\DsaApi.genruntimeconfig.cache
 E:\Coding\inCSPrep\backend\DsaApi\obj\Debug\net9.0\ref\DsaApi.dll
+E:\Coding\inCSPrep\backend\DsaApi\bin\Debug\net9.0\Acornima.dll
+E:\Coding\inCSPrep\backend\DsaApi\bin\Debug\net9.0\Jint.dll

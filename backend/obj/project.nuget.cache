@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ulqrN2GDV7c=",
+  "dgSpecHash": "bKMZ3Z9S55Y=",
   "success": true,
   "projectFilePath": "E:\\Coding\\inCSPrep\\backend\\backend.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adeli\\.nuget\\packages\\acornima\\1.6.1\\acornima.1.6.1.nupkg.sha512",
+    "C:\\Users\\adeli\\.nuget\\packages\\jint\\4.9.1\\jint.4.9.1.nupkg.sha512",
     "C:\\Users\\adeli\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.2\\microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "C:\\Users\\adeli\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.2\\microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\adeli\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.2\\microsoft.entityframeworkcore.analyzers.9.0.2.nupkg.sha512",

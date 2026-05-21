@@ -22,12 +22,11 @@ a:hover {
   color: #535bf2;
 }
 
+html,
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  height: 100%;
   min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -65,4 +64,205 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* ── IDE 3-panel layout ── */
+.ide-layout {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.ide-description {
+  width: 40%;
+  min-width: 280px;
+  padding: 1.5rem;
+  overflow-y: auto;
+  border-right: 1px solid #333;
+  background: #252526;
+}
+
+.ide-description-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.ide-description-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #e1e1e1;
+}
+
+.difficulty-badge {
+  font-size: 0.75rem;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.difficulty-easy   { background: #1b3a2d; color: #4ec9b0; }
+.difficulty-medium { background: #3a2e1b; color: #d7ba7d; }
+.difficulty-hard   { background: #3a1b1b; color: #f48771; }
+
+.ide-description-body {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+.ide-testcases-preview {
+  margin-top: 1.5rem;
+}
+.ide-testcases-preview h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+}
+.example-block {
+  background: #1e1e1e;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  font-family: 'Cascadia Code', 'Fira Code', monospace;
+  line-height: 1.6;
+}
+
+.ide-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.ide-editor-pane {
+  flex: 1;
+  min-height: 0;
+}
+
+.ide-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0.8rem;
+  background: #2d2d2d;
+  border-bottom: 1px solid #333;
+}
+
+.ide-lang-badge {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.ide-run-btn {
+  background: #238636;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.3rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.ide-run-btn:hover:not(:disabled) { background: #2ea043; }
+.ide-run-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.ide-output-pane {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #333;
+  background: #1a1a1a;
+}
+
+.ide-output-header {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #888;
+  background: #252526;
+  border-bottom: 1px solid #333;
+}
+
+.ide-output-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.75rem 1rem;
+  font-family: 'Cascadia Code', 'Fira Code', monospace;
+  font-size: 0.85rem;
+}
+
+.ide-placeholder { color: #555; }
+.ide-error       { color: #f48771; }
+
+.ide-verdict {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+.verdict-pass { color: #4ec9b0; }
+.verdict-fail { color: #f48771; }
+
+.ide-result-row {
+  padding: 0.25rem 0;
+  font-size: 0.83rem;
+}
+.result-pass { color: #4ec9b0; }
+.result-fail { color: #d4d4d4; }
+.ide-result-row code {
+  background: #2d2d2d;
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #ce9178;
+}
+
+.ai-analysis {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f8f9ff;
+  border-left: 4px solid #4f46e5;
+  border-radius: 6px;
+  line-height: 1.6;
+}
+
+.ai-analysis table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.ai-analysis th,
+.ai-analysis td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.ai-analysis th {
+  background-color: #ebebff;
+}
+
+.ai-analysis code {
+  background: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.ai-analysis pre {
+  background: #1e1e1e;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
 }

@@ -8,11 +8,31 @@
     ".NETCoreApp,Version=v9.0": {
       "DsaApi/1.0.0": {
         "dependencies": {
+          "Jint": "4.9.1",
           "Microsoft.AspNetCore.OpenApi": "9.0.2",
           "Npgsql": "9.0.3"
         },
         "runtime": {
           "DsaApi.dll": {}
+        }
+      },
+      "Acornima/1.6.1": {
+        "runtime": {
+          "lib/net8.0/Acornima.dll": {
+            "assemblyVersion": "1.6.1.0",
+            "fileVersion": "1.6.1.0"
+          }
+        }
+      },
+      "Jint/4.9.1": {
+        "dependencies": {
+          "Acornima": "1.6.1"
+        },
+        "runtime": {
+          "lib/net8.0/Jint.dll": {
+            "assemblyVersion": "4.9.1.0",
+            "fileVersion": "4.5.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.OpenApi/9.0.2": {
@@ -58,6 +78,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acornima/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EB2vFgpNar8DrC+KLJv8MG6YIU2xqNyrq8GpL69vectPCXoaq6XyZGb/VHbfPVYul7dscO1Mw30eblrxs05RHg==",
+      "path": "acornima/1.6.1",
+      "hashPath": "acornima.1.6.1.nupkg.sha512"
+    },
+    "Jint/4.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y878epycKuwyksZZOhB9LkuQed4P/v4yDdYK3H6lYJObGzhya6Saa9smWOLFscRDhgB4CVaXIYKPQEpNscwbNg==",
+      "path": "jint/4.9.1",
+      "hashPath": "jint.4.9.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/9.0.2": {
       "type": "package",
