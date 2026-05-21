@@ -5,6 +5,7 @@ import CodeEditor from './CodeEditor'
 const DsaExercise: React.FC = () => {
   const { title } = useParams()
   const [exercise, setExercise] = useState<any | null>(null)
+  const [allExercises, setAllExercises] = useState<any[]>([])
   const [loading, setLoading] = useState<boolean>(true)
 
   useEffect(() => {
@@ -17,6 +18,7 @@ const DsaExercise: React.FC = () => {
           (e: any) =>
             e.title.replace(/\s+/g, '').toLowerCase() === formattedTitle,
         )
+        setAllExercises(data)
         setExercise(found || null)
       } catch (error) {
         console.error('Failed to fetch exercises:', error)
@@ -30,7 +32,16 @@ const DsaExercise: React.FC = () => {
   if (loading) return <p>Loading…</p>
   if (!exercise) return <p>Exercise not found.</p>
 
-  return <CodeEditor defaultCode={exercise.template} exercise={exercise} />
+  const currentIndex = allExercises.findIndex((e) => e.id === exercise.id)
+
+  return (
+    <CodeEditor
+      defaultCode={exercise.template}
+      exercise={exercise}
+      allExercises={allExercises}
+      currentIndex={currentIndex}
+    />
+  )
 }
 
 export default DsaExercise
